@@ -1,131 +1,128 @@
-/* Global styles */
+/* Estilos Globales */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Header */
-  header {
-    background-color: #f1f1f1;
-    /* padding: 5% 5% 5% 20%; Plan B to center de image*/
-    padding: 5%;
-    display: flex;
-    justify-content: center;  /*The way to center de img */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
-  }
-  header > img{
-    width: 30%;
+/* Header */
+header {
+  background-color: #f1f1f1;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    }
-  
-  /* Navigation */
-  nav {
-    background-color: #333;
-    text-align: center;
+header > img {
+  width: 30%;
+}
 
-  }
+/* Navigation */
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
   
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    /* Main */
+    main {
+      padding: 20px;
   }
-  
-  nav ul li {
-    display: inline-block;
-  }
-  
-  nav ul li a {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Main */
-  main {
-    padding: 20px;
-  }
-  
+
   /* Promotional section */
   main header {
-    text-align: center;
+      text-align: center;
   }
-  
+
   main h1 {
-    font-size: 24px;
+      font-size: 24px;
   }
-  
+
   main button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
   }
-  
+
   main button:hover {
-    background-color: #555;
+      background-color: #555;
   }
-  
+
   main img {
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
   }
-  
+
   main p {
-    font-size: 16px;
-    line-height: 1.5;
+      font-size: 16px;
+      line-height: 1.5;
   }
-  
-/* Footer */
-footer {
-    background-color: #f1f1f1;
-    padding: 40px 80px 40px 80px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+  /* Footer */
+  footer {
+      background-color: #f1f1f1;
+      padding: 40px 80px 40px 80px;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
   }
-  
+
   footer img {
-    display: flex;
-    max-width: 60px;
-    height: auto;
-    flex-grow: 1; 
+      max-width: 60px;
+      height: auto;
   }
-  
+
   footer p {
-    font-size: 14px;
-    margin-top: 10px;
-    text-align: right;
+      font-size: 14px;
+      margin-top: 10px;
+      text-align: right;
   }
-  
-/* Grid layout for the sections */
-.otros{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
+
+  /* Grid layout for the sections */
+  .otros {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
   }
-  
+
   .promocion {
-    grid-area: 1 / 1 / 1 / span 3;
-    text-align: center;
-    border: solid black;
+      grid-area: 1 / 1 / 1 / span 3;
+      text-align: center;
+      border: solid black;
   }
 
   /* Center the content within the first section */
   main section:first-child section {
-    text-align: center;
+      text-align: center;
   }
-  .otros img{
-    width: 400px;
-    height: 200px;
-    object-fit: cover;
-     justify-self: center; 
+
+  .otros img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      justify-self: center;
   }
