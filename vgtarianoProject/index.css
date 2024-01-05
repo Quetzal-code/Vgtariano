@@ -12,37 +12,31 @@ body {
     padding: 5%;
     display: flex;
     justify-content: center;  /*The way to center de img */
-
   }
   header > img{
     width: 25%;
-
     }
   
   /* Navigation */
   nav {
     background-color: #333;
     text-align: center;
-
   }
-  
   nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  
   nav ul li {
     display: inline-block;
   }
-  
   nav ul li a {
     display: block;
     padding: 10px;
     color: #fff;
     text-decoration: none;
   }
-  
+
   /* Main */
   main {
     padding: 20px;
@@ -52,11 +46,9 @@ body {
   main header {
     text-align: center;
   }
-  
   main h1 {
     font-size: 24px;
   }
-  
   main button {
     background-color: #333;
     color: #fff;
@@ -65,17 +57,14 @@ body {
     margin-top: 10px;
     cursor: pointer;
   }
-  
   main button:hover {
     background-color: #555;
   }
-  
   main img {
     max-width: 100%;
     height: auto;
     margin: 20px 0;
   }
-  
   main p {
     font-size: 16px;
     line-height: 1.5;
@@ -89,13 +78,11 @@ body {
     border: 1px solid #ccc;
     padding: 10px;
   }
-  
   .promocion {
     grid-area: 1 / 1 / 1 / span 3;
     text-align: center;
     border: solid black;
   }
-
   /* Center the content within the first section */
   main section:first-child section {
     text-align: center;
@@ -106,8 +93,6 @@ body {
     object-fit: cover;
      justify-self: center; 
   }
-
-
   /* Footer */
 footer {
   background-color:#130e08; 
@@ -117,31 +102,28 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-
 footer img {
-  width: 60px;
+  width: 100px;
   height: auto;
   margin-right: 10px; 
 }
-
 footer p {
   font-size: 14px;
   margin: 0; 
   flex-grow: 1; 
 }
-
 .footer-icons {
   display: flex; 
 }
-
 .footer-icons a {
   margin: 0 5px; 
 }
-
 .footer-icons i {
   font-size: 24px; 
+  margin: 20px 20px;
+  color:#d1bbc6;
+  font-size: 50px;
 }
-
 .footer-text {
   color: #fff;
 }
