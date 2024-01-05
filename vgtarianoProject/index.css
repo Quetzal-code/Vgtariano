@@ -128,4 +128,70 @@ footer p {
   color: #fff;
 }
 
+/*contact page */
+#contacto-main {
+  padding: 20px;
+}
+#contacto-main .otros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#contacto-main article {
+  max-width: 600px;
+  width: 100%;
+}
+#contacto-main h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#contacto-main p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+#contacto-main form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+#contacto-main label {
+  font-size: 14px;
+}
+#contacto-main input,
+#contacto-main textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+#contacto-main button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#contacto-main button:hover {
+  background-color: #555;
+}
 
+/* product page*/
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px;
+  justify-content: center; 
+}
+.productos article {
+  text-align: center; 
+  max-width: 300px; 
+  margin: 0 auto; 
+}
+.productos img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 10px;
+}
