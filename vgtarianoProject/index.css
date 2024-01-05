@@ -7,7 +7,7 @@ body {
   
   /* Header */
   header {
-    background-color: #f1f1f1;
+    background-color: #130e08;
     /* padding: 5% 5% 5% 20%; Plan B to center de image*/
     padding: 5%;
     display: flex;
@@ -15,7 +15,7 @@ body {
 
   }
   header > img{
-    width: 30%;
+    width: 25%;
 
     }
   
@@ -107,10 +107,10 @@ body {
      justify-self: center; 
   }
 
-  
+
   /* Footer */
 footer {
-  background-color: #f1f1f1;
+  background-color:#130e08; 
   padding: 20px;
   text-align: center;
   display: flex;
@@ -141,3 +141,9 @@ footer p {
 .footer-icons i {
   font-size: 24px; 
 }
+
+.footer-text {
+  color: #fff;
+}
+
+
