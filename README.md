@@ -37,7 +37,7 @@ Interested in contributing to Vgtariano? We welcome contributions that enhance t
 5. Create a new Pull Request.
 
 ## Feedback and Contact
-We value your feedback! If you have suggestions or questions, feel free to reach out to us via the Contact page (`contacto.html`) or at [Your Email](quetzcode@gmail.com).
+We value your feedback! If you have suggestions or questions, feel free to reach out to us via the Contact page (`contacto.html`) or at [quetzcode@gmail.com].
 
 ## License
 This project is open-sourced under the [MIT License](LICENSE).
