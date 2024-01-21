@@ -9,7 +9,6 @@ body {
   header {
     background-color: #130e08;
     /* padding: 5% 5% 5% 20%; Plan B to center de image*/
-    padding: 5%;
     display: flex;
     justify-content: center;  /*The way to center de img */
   }
