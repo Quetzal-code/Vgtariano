@@ -4,70 +4,70 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
   }
-  
-  /* Header */
-  header {
+
+/* Header */
+header {
     background-color: #130e08;
     /* padding: 5% 5% 5% 20%; Plan B to center de image*/
     display: flex;
     justify-content: center;  /*The way to center de img */
-  }
-  header > img{
+}
+header > img{
     width: 17%;
     }
   
-  /* Navigation */
-  nav {
+/* Navigation */
+ nav {
     background-color: #333;
     text-align: center;
-  }
-  nav ul {
+}
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  nav ul li {
+}
+nav ul li {
     display: inline-block;
-  }
-  nav ul li a {
+}
+nav ul li a {
     display: block;
     padding: 10px;
     color: #fff;
     text-decoration: none;
-  }
+}
 
-  /* Main */
-  main {
+/* Main */
+main {
     padding: 20px;
-  }
+}
   
-  /* Promotional section */
-  main header {
+/* Promotional section */
+main header {
     text-align: center;
-  }
-  main h1 {
+}
+main h1 {
     font-size: 24px;
-  }
-  main button {
+}
+main button {
     background-color: #333;
     color: #fff;
     border: none;
     padding: 10px 20px;
     margin-top: 10px;
     cursor: pointer;
-  }
-  main button:hover {
+}
+main button:hover {
     background-color: #555;
-  }
-  main img {
+}
+main img {
     max-width: 100%;
     height: auto;
     margin: 20px 0;
-  }
-  main p {
+}
+main p {
     font-size: 16px;
     line-height: 1.5;
-  }
+}
   
 /* Grid layout for the sections */
 .otros{
@@ -92,7 +92,8 @@ body {
     object-fit: cover;
      justify-self: center; 
   }
-  /* Footer */
+
+/* Footer */
 footer {
   background-color:#130e08; 
   padding: 20px;
