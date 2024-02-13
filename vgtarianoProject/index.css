@@ -65,7 +65,10 @@ main p {
     line-height: 1.5;
     text-align: center;
 }
-  
+
+article h2{
+  text-align: center;
+}
 /* Grid layout for the sections */
 .otros{
     display: grid;
@@ -175,12 +178,12 @@ footer p {
 }
 
 /* product page*/
+
 .productos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   margin: 20px;
-  justify-content: center; 
+  justify-content: center;
 }
 .productos article {
   text-align: center; 
@@ -188,8 +191,9 @@ footer p {
   margin: 0 auto; 
 }
 .productos img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
+  width: auto;
+  max-width: 300px;
+  height: 300px;
   margin-bottom: 10px;
+  object-fit: cover;
 }
