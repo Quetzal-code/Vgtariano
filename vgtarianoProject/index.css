@@ -194,6 +194,7 @@ footer p {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 20px;
     justify-content: center;
+    gap: 20px;
 }
 .productos article p{
     text-align: center;
@@ -202,6 +203,9 @@ footer p {
     text-align: center;
     max-width: 300px;
     margin: 0 auto;
+    border: 3px #0b0b0b solid;
+    border-radius: 20px;
+    padding: 10px; gap: 5px
 }
 .productos img {
     width: auto;
@@ -209,6 +213,7 @@ footer p {
     height: 300px;
     margin-bottom: 10px;
     object-fit: cover;
+    border-radius: 20px;
 }
 .reservar {
     margin-bottom: 10px;
